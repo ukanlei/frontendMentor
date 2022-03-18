@@ -3,6 +3,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
+img {
+  border-radius: 10px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
