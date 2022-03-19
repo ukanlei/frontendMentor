@@ -7,7 +7,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Issues & Solutions](#issues--solutions)git
+  - [Issues & Solutions](#issues--solutions)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
