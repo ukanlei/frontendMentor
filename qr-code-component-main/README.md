@@ -7,7 +7,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Issues & Solutions](#issues-&-solutions)
+  - [Issues & Solutions](#issues--solutions)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
