@@ -1,8 +1,10 @@
 body {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   text-align: center;
   align-items: center;
+  justify-content: center;
   background-color: #d5e1ef;
   font-family: "Outfit";
 }
