@@ -1,23 +1,25 @@
 body {
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   background-color: #d5e1ef;
+  font-family: "Outfit";
 }
 img {
   border-radius: 10px;
 }
+p {
+  font-size: 15px;
+}
+
 .container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
 }
 .attribution {
   font-size: 11px;
-  text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-.heading {
-  text-align: center;
 }
