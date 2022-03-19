@@ -7,15 +7,17 @@ body {
   font-family: "Outfit";
 }
 img {
+  max-width: 320px;
   border-radius: 10px;
 }
 p {
   font-size: 15px;
 }
-
 .container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
+  padding: 16px;
+  max-width: 320px;
 }
 .attribution {
   font-size: 11px;
