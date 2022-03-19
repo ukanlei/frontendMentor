@@ -7,8 +7,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Issues & Solutions](#issues--solutions)
-  - [Continued development](#continued-development)
+  - [Issues & Solutions](#issues--solutions)git
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -54,10 +53,6 @@ and replaced it with `margin:auto` instead:
   margin: auto;
 }
 ```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 ### Useful resources
 
