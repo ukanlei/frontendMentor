@@ -4,7 +4,6 @@ body {
   flex-direction: column;
   height: 100vh;
   text-align: center;
-  align-items: center;
   background-color: #d5e1ef;
   font-family: "Outfit";
 }
@@ -21,7 +20,6 @@ p {
   box-shadow: 0 2px 4px rgb(0 0 0 / 0.2);
   border-radius: 20px;
   padding: 16px;
-
   max-width: 320px;
 }
 .container {
