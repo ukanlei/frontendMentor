@@ -8,27 +8,30 @@ body {
   font-family: "Outfit";
 }
 img {
-  max-width: 20rem;
+  max-width: 100%;
   border-radius: 1.25rem;
 }
 h1 {
   font-size: 1.38rem;
   color: hsl(218, 44%, 22%);
+  margin: 1.5rem 0.9rem 1rem;
 }
 p {
   font-size: 0.96rem;
   color: hsl(220, 15%, 55%);
+  margin: 0 2rem;
 }
 .box {
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0 2px 4px rgb(0 0 0 / 0.2);
   border-radius: 1.25rem;
-  padding: 1rem;
+  padding: 1rem 1rem 2.5rem;
   max-width: 20rem;
 }
 .container {
   margin: auto;
 }
+
 .attribution {
   margin-top: 10px;
   font-size: 11px;
