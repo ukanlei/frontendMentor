@@ -13,6 +13,8 @@
 
 ## Overview
 
+_A Shout-out to all the feedbacks helping perfect my solution 🎉_
+
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). In this solution:
 
 - Users can view the optimal layout depending on their device's screen size.
@@ -54,13 +56,13 @@ and replaced it with `margin:auto` instead. The `auto` margins will assume the l
 }
 ```
 
-Also shoutout to all the feedbacks
+This was also my first experience using Figma. A fun learning process into the design tool and how to translate it into a live product.
 
 ### Useful resources
 
 - [Semi-transparent box shadow](https://css-tricks.com/almanac/properties/b/box-shadow/) - Found this article helpful in visualizing possible options and create some cool effect with the box-shawdow property
 - [Scroll limitation with overflowing flex](https://stackoverflow.com/questions/33454533/cant-scroll-to-top-of-flex-item-that-is-overflowing-container) - Super helpful in helping me figure out the issues I was having when using flex to center items.
-- [Px vs. Rem](https://medium.com/user-experience-design-1/why-designers-should-move-from-px-to-rem-and-how-to-do-that-in-figma-c0ea23e07a15) - Understanding the difference between Px vs Rem and why one might choose one over the other when it comes to accessiblity.
+- [Px vs. Rem](https://medium.com/user-experience-design-1/why-designers-should-move-from-px-to-rem-and-how-to-do-that-in-figma-c0ea23e07a15) - An article that helped me understand the difference between px vs rem and why one might choose one over the other when it comes to accessiblity.
 
 ## Author
 
