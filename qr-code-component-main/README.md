@@ -37,7 +37,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Issues & Solutions
 
-To fix problem with overflowing flex item getting cut off with no accessible way to scroll to see more of the content, I removed `align-item:center` and `justify-content:center` from `body`:
+To fix problem with flex item overflowing past the top edge and getting cut off with no accessible way to scroll up to see the rest of the content, I removed `align-item:center` and `justify-content:center` from `body`:
 
 ```css
 body {
@@ -46,7 +46,7 @@ body {
 }
 ```
 
-and replaced it with `margin:auto` instead:
+and replaced it with `margin:auto` instead. The `auto` margins will assume the leftover space, centering item where there's leftover space, and switching to normal alignment when there's not.
 
 ```css
 .container {
@@ -54,10 +54,12 @@ and replaced it with `margin:auto` instead:
 }
 ```
 
+^ [Reference](https://stackoverflow.com/questions/33454533/cant-scroll-to-top-of-flex-item-that-is-overflowing-container)
+
 ### Useful resources
 
 - [Semi-transparent box shadow](https://css-tricks.com/almanac/properties/b/box-shadow/) - Found this article helpful in visualizing possible options and create some cool effect with the box-shawdow property
-- [Scroll limitation with overflowing flex](https://stackoverflow.com/questions/33454533/cant-scroll-to-top-of-flex-item-that-is-overflowing-container) - Super helpful in figuring out overflowing flex item issue and understanding issues that may arise when using flex to center items.
+- [Scroll limitation with overflowing flex](https://stackoverflow.com/questions/33454533/cant-scroll-to-top-of-flex-item-that-is-overflowing-container) - Super helpful in helping me figure out the issues I was having when using flex to center items.
 
 ## Author
 
