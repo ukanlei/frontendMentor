@@ -14,7 +14,7 @@ img {
 h1 {
   font-size: 1.38rem;
   color: hsl(218, 44%, 22%);
-  margin: 1.5rem 0.9rem 1rem;
+  margin: 1.5rem 1rem 1rem;
 }
 p {
   font-size: 0.96rem;
@@ -27,7 +27,7 @@ p {
   border-radius: 1.25rem;
   padding: 1rem 1rem 2.5rem;
   margin: 1.75rem;
-  max-width: 20rem;
+  max-width: 18rem;
 }
 .container {
   margin: auto;
