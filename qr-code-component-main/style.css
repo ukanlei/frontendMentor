@@ -23,7 +23,7 @@ p {
 }
 .box {
   background-color: hsl(0, 0%, 100%);
-  box-shadow: 0 2px 4px rgb(0 0 0 / 0.2);
+  box-shadow: 0 1.5625rem 1.5625rem hsla(0, 0%, 0%, 0.048);
   border-radius: 1.25rem;
   padding: 1rem 1rem 2.5rem;
   margin: 1.75rem;
