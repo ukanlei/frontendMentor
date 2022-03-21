@@ -1,3 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Outfit";
+  text-align: center;
+  background-color: hsl(217, 54%, 11%);
+}
+main {
+  max-width: 20.44rem;
+  background-color: hsl(216, 50%, 16%);
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+p,
+footer,
+.ethereum,
+.days-left,
+.author {
+  color: hsl(215, 51%, 70%);
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
