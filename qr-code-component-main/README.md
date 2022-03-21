@@ -15,9 +15,9 @@
 
 _A Shout-out to all the feedbacks helping me perfect my solution 🎉_
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). In this solution:
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
-- Users can view the optimal layout depending on their device's screen size.
+For this challenge, the width of the container containing the qr box is less than that of most mobile device, so I decided to not use media query as an experiment. [Read about result.](#no-media-what-will-happen)
 
 ### Screenshot
 
@@ -57,6 +57,14 @@ and replaced it with `margin:auto` instead. The `auto` margins will assume the l
 ```
 
 This was also my first experience using Figma. A fun learning process into the design tool and how to translate it into a live product.
+
+### No @media? What will happen?
+
+As mentioned in the overview, I decided not to use @media to see what would happen. What result did I get? Well, it depends.
+
+For my first attempt, I gave my img a max-width of 18rem, same as my .box. The dimension of the box stays looking the same no matter the width of the screen. However, when the screen is at or under 320px, the box overflows, forcing users the need to scroll to see the rest of the content.
+
+In my second attempt, I made the width of the img 100%. While this approach no longer results in an overflowing effect, the dimension of the box changes to fit within the screen.
 
 ### Useful resources
 
