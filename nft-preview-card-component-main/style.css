@@ -5,10 +5,12 @@ body {
   font-family: "Outfit";
   text-align: center;
   background-color: hsl(217, 54%, 11%);
+  padding: 1.5rem;
 }
 main {
   max-width: 20.44rem;
   background-color: hsl(216, 50%, 16%);
+  padding: 1.5rem;
 }
 img {
   max-width: 100%;
