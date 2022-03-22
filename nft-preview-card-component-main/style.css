@@ -1,16 +1,18 @@
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: "Outfit";
   background-color: hsl(217, 54%, 11%);
-  padding: 1.5rem;
+  min-height: 100vh;
+  margin: auto;
+  max-width: 20.44rem;
+  max-height: 33.94rem;
 }
 main {
-  max-width: 20.44rem;
   background-color: hsl(216, 50%, 16%);
   padding: 1.5rem;
   border-radius: 0.94rem;
+  margin: auto;
 }
 
 /* image */
@@ -47,6 +49,7 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
