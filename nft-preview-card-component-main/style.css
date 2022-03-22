@@ -30,7 +30,6 @@ h1 {
 }
 p,
 footer,
-.ethereum,
 .days-left,
 .author {
   color: hsl(215, 51%, 70%);
@@ -39,6 +38,15 @@ footer,
 
 p {
   font-size: 1.13rem;
+}
+
+.ethereum {
+  color: hsl(178, 100%, 50%);
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
 }
 
 .name {
