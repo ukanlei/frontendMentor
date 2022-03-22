@@ -1,10 +1,11 @@
+/* base structure */
 body {
   display: flex;
   flex-direction: column;
   font-family: "Outfit";
   background-color: hsl(217, 54%, 11%);
-  min-height: 100vh;
   margin: auto;
+  min-height: 100vh;
   max-width: 20.44rem;
   max-height: 33.94rem;
 }
@@ -12,16 +13,14 @@ main {
   background-color: hsl(216, 50%, 16%);
   padding: 1.5rem;
   border-radius: 0.94rem;
+}
+.wrapper {
   margin: auto;
 }
 
-/* image */
 img {
   max-width: 100%;
   border-radius: 0.5rem;
-}
-img.portrait {
-  max-width: 2.06rem;
 }
 
 h1 {
@@ -40,15 +39,23 @@ p {
   font-size: 1.13rem;
 }
 
-.ethereum {
-  color: hsl(178, 100%, 50%);
-}
-
+/* card content */
 .card-info {
   display: flex;
   justify-content: space-between;
 }
+.ethereum > p {
+  color: hsl(178, 100%, 50%);
+  display: inline;
+}
+.days-left > p {
+  display: inline;
+}
 
+/* author's info*/
+.author > img {
+  max-width: 2.06rem;
+}
 .name {
   color: hsl(0, 0%, 100%);
 }
