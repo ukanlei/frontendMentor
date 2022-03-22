@@ -18,24 +18,27 @@ main {
   margin: auto;
 }
 
-img {
+/* base font style */
+p,
+footer {
+  color: hsl(215, 51%, 70%);
+}
+footer,
+.card-info,
+.author {
+  font-size: 0.94rem;
+}
+
+/* card heading */
+.heading > img {
   max-width: 100%;
   border-radius: 0.5rem;
 }
-
 h1 {
   font-size: 1.38rem;
   color: hsl(0, 0%, 100%);
 }
-p,
-footer,
-.days-left,
-.author {
-  color: hsl(215, 51%, 70%);
-  font-size: 0.94rem;
-}
-
-p {
+.heading > p {
   font-size: 1.13rem;
 }
 
