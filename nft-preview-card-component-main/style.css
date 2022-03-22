@@ -10,10 +10,18 @@ main {
   max-width: 20.44rem;
   background-color: hsl(216, 50%, 16%);
   padding: 1.5rem;
+  border-radius: 0.94rem;
 }
+
+/* image */
 img {
   max-width: 100%;
+  border-radius: 0.5rem;
 }
+img.portrait {
+  max-width: 2.06rem;
+}
+
 h1 {
   font-size: 1.38rem;
   color: hsl(0, 0%, 100%);
@@ -35,7 +43,7 @@ p {
   color: hsl(0, 0%, 100%);
 }
 
-/*footer*/
+/* footer */
 .attribution {
   font-size: 11px;
   text-align: center;
