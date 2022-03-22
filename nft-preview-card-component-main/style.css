@@ -56,8 +56,17 @@ p {
 }
 
 /* author's info*/
+.author {
+  display: flex;
+  align-items: center;
+}
 .author > img {
-  max-width: 2.06rem;
+  max-width: auto;
+  max-height: 2.6rem;
+}
+.author > p {
+  margin-left: 1rem;
+  display: inline;
 }
 .name {
   color: hsl(0, 0%, 100%);
