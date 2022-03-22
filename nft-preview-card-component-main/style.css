@@ -3,7 +3,6 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Outfit";
-  text-align: center;
   background-color: hsl(217, 54%, 11%);
   padding: 1.5rem;
 }
@@ -16,20 +15,27 @@ img {
   max-width: 100%;
 }
 h1 {
+  font-size: 1.38rem;
   color: hsl(0, 0%, 100%);
 }
-
 p,
 footer,
 .ethereum,
 .days-left,
 .author {
   color: hsl(215, 51%, 70%);
+  font-size: 0.94rem;
+}
+
+p {
+  font-size: 1.13rem;
 }
 
 .name {
   color: hsl(0, 0%, 100%);
 }
+
+/*footer*/
 .attribution {
   font-size: 11px;
   text-align: center;
