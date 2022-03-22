@@ -48,6 +48,9 @@ p {
   color: hsl(178, 100%, 50%);
   display: inline;
 }
+.icon {
+  vertical-align: text-top;
+}
 .days-left > p {
   display: inline;
 }
