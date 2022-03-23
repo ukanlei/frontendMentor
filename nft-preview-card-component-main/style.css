@@ -36,14 +36,14 @@ footer,
 }
 
 /* card heading */
-.heading > img {
-  max-width: 100%;
-  border-radius: 0.5rem;
-}
 h1 {
   font-size: 1.38rem;
   color: hsl(0, 0%, 100%);
   margin: 1.5rem 0 0;
+}
+.heading > img {
+  max-width: 100%;
+  border-radius: 0.5rem;
 }
 .heading > p {
   font-size: 1.13rem;
@@ -73,7 +73,9 @@ h1 {
 }
 .author > img {
   max-width: auto;
-  max-height: 2.6rem;
+  max-height: 2.06rem;
+  border: 0.06rem solid hsl(0, 0%, 100%);
+  border-radius: 50%;
 }
 .author > p {
   margin-left: 1rem;
