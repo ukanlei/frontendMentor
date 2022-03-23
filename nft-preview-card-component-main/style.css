@@ -45,13 +45,26 @@ footer,
   margin: 1.5rem 0 0;
   text-decoration: none;
 }
-.heading > img {
+.heading p {
+  font-size: 1.13rem;
+  margin: 0.75rem 0 1rem;
+}
+.container {
+  position: relative;
+}
+.main-img {
   max-width: 100%;
   border-radius: 0.5rem;
 }
-.heading > p {
-  font-size: 1.13rem;
-  margin: 0.75rem 0 1rem;
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#title:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 /* card content */
@@ -59,14 +72,14 @@ footer,
   display: flex;
   justify-content: space-between;
 }
-.ethereum > p {
+.ethereum p {
   color: hsl(178, 100%, 50%);
   display: inline;
 }
 .icon {
   vertical-align: text-top;
 }
-.days-left > p {
+.days-left p {
   display: inline;
 }
 
@@ -75,18 +88,22 @@ footer,
   display: flex;
   align-items: center;
 }
-.author > img {
+.author img {
   max-width: auto;
   max-height: 2.06rem;
   border: 0.06rem solid hsl(0, 0%, 100%);
   border-radius: 50%;
 }
-.author > p {
+.author p {
   margin-left: 1rem;
   display: inline;
 }
-.name {
+#name {
   color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+#name:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 /* footer */
