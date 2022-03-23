@@ -12,7 +12,12 @@ body {
 main {
   background-color: hsl(216, 50%, 16%);
   padding: 1.5rem;
-  border-radius: 0.94rem;
+  border-radius: 0.06rem;
+}
+hr {
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  border: none;
 }
 .wrapper {
   margin: auto;
