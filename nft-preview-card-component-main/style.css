@@ -28,6 +28,7 @@ hr {
 p,
 footer {
   color: hsl(215, 51%, 70%);
+  font-weight: 300;
 }
 footer,
 .card-info,
@@ -36,10 +37,13 @@ footer,
 }
 
 /* card heading */
-h1 {
+#title {
+  display: block;
   font-size: 1.38rem;
   color: hsl(0, 0%, 100%);
+  font-weight: 600;
   margin: 1.5rem 0 0;
+  text-decoration: none;
 }
 .heading > img {
   max-width: 100%;
