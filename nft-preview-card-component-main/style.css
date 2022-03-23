@@ -18,6 +18,7 @@ hr {
   height: 1px;
   background-color: hsl(215, 32%, 27%);
   border: none;
+  margin: 1rem 0;
 }
 .wrapper {
   margin: auto;
@@ -42,9 +43,11 @@ footer,
 h1 {
   font-size: 1.38rem;
   color: hsl(0, 0%, 100%);
+  margin: 1.5rem 0 0;
 }
 .heading > p {
   font-size: 1.13rem;
+  margin: 0.75rem 0 1rem;
 }
 
 /* card content */
