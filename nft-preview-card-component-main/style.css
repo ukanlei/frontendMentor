@@ -45,10 +45,15 @@ footer,
   margin: 1.5rem 0 0;
   text-decoration: none;
 }
+#title:hover {
+  color: hsl(178, 100%, 50%);
+}
 .heading p {
   font-size: 1.13rem;
   margin: 0.75rem 0 1rem;
 }
+
+/* card heading: image */
 .container {
   position: relative;
 }
@@ -56,22 +61,18 @@ footer,
   max-width: 100%;
   border-radius: 0.5rem;
 }
-
-.view {
+.view-icon {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.view img {
-  visibility: hidden;
+.view-icon img {
+  opacity: 0;
 }
 .container:hover img {
-  visibility: visible;
-}
-#title:hover {
-  color: hsl(178, 100%, 50%);
+  opacity: 1;
 }
 
 /* card content */
