@@ -56,12 +56,19 @@ footer,
   max-width: 100%;
   border-radius: 0.5rem;
 }
-.middle {
+
+.view {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+.view img {
+  visibility: hidden;
+}
+.container:hover img {
+  visibility: visible;
 }
 #title:hover {
   color: hsl(178, 100%, 50%);
