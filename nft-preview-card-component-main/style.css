@@ -57,7 +57,19 @@ footer,
 .container {
   position: relative;
 }
+/* overlay effect */
+.overlay {
+  position: absolute;
+  background-color: hsl(178, 100%, 50%, 50.3%);
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
 .main-img {
+  display: block;
   max-width: 100%;
   border-radius: 0.5rem;
 }
@@ -68,7 +80,8 @@ footer,
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.view-icon img {
+/* create overlay effect over img */
+.view-icon {
   opacity: 0;
 }
 .container:hover img {
