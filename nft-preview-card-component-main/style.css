@@ -23,6 +23,11 @@ hr {
 .wrapper {
   margin: auto;
 }
+/* hover transition for links */
+a,
+.heading .overlay {
+  transition: all 0.2s ease-in-out;
+}
 
 /* base font style */
 p,
@@ -83,9 +88,6 @@ footer,
   opacity: 0;
 }
 /* hover effect */
-.container .overlay {
-  transition: all 0.2s ease-in-out;
-}
 .container:hover .overlay,
 .container:hover .view-icon {
   opacity: 1;
