@@ -144,4 +144,8 @@ a,
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: );
+@media screen and (max-width: 330px), screen and (max-height: 640px) {
+  body {
+    padding: 20px;
+  }
+}
