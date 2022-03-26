@@ -86,13 +86,12 @@ footer,
 }
 
 /* hover effects */
-a,
-.heading .overlay {
-  transition: all 0.2s ease-in-out;
-}
 .container:hover .overlay,
 .container:hover .view-icon {
   opacity: 1;
+}
+.overlay {
+  transition: 0.2s ease-in-out;
 }
 
 /* card content */
@@ -142,10 +141,4 @@ a,
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media screen and (max-width: 330px), screen and (max-height: 640px) {
-  body {
-    padding: 20px;
-  }
 }
