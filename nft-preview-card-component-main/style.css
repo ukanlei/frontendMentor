@@ -5,10 +5,10 @@ body {
   font-family: "Outfit";
   background-color: hsl(217, 54%, 11%);
   margin: auto;
-  padding: 1rem;
   min-height: 100vh;
-  max-width: 21.88rem;
-  max-height: 37.25rem;
+  overflow: hidden;
+  max-width: 20.44rem;
+  max-height: 33.94rem;
 }
 main {
   background-color: hsl(216, 50%, 16%);
@@ -22,6 +22,8 @@ hr {
   margin: 1rem 0;
 }
 .wrapper {
+  display: flex;
+  flex-direction: column;
   margin: auto;
 }
 
@@ -142,4 +144,11 @@ footer,
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 21.88rem;
+    max-height: 37.25rem;
+  }
 }
