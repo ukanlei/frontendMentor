@@ -6,14 +6,13 @@ body {
   background-color: hsl(217, 54%, 11%);
   margin: auto;
   min-height: 100vh;
-
   max-width: 20.44rem;
   max-height: 33.94rem;
 }
 main {
   background-color: hsl(216, 50%, 16%);
   padding: 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.94rem;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 hr {
