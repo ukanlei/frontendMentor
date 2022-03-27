@@ -6,7 +6,7 @@ body {
   background-color: hsl(217, 54%, 11%);
   margin: auto;
   min-height: 100vh;
-  overflow: hidden;
+
   max-width: 20.44rem;
   max-height: 33.94rem;
 }
@@ -152,5 +152,15 @@ footer,
   body {
     max-width: 21.88rem;
     max-height: 37.25rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .wrapper {
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-height: 640px) {
+  body {
+    margin-top: 1rem;
   }
 }
