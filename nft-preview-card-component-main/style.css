@@ -127,6 +127,8 @@ footer,
 }
 .author p {
   margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
   display: inline;
 }
 #name {
@@ -152,6 +154,19 @@ footer,
   body {
     max-width: 21.88rem;
     max-height: 37.25rem;
+  }
+  main {
+    padding-bottom: 2rem;
+  }
+  hr {
+    margin-top: 1.5rem;
+  }
+  .heading p {
+    margin: 1rem 0 1.5rem;
+  }
+  .card-info,
+  .author p {
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 360px) {
