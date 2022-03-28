@@ -54,6 +54,7 @@ footer,
 .heading p {
   font-size: 1.13rem;
   margin: 0.75rem 0 1rem;
+  line-height: 1.63rem;
 }
 
 /* card heading: container */
@@ -105,6 +106,7 @@ footer,
 .ethereum p {
   color: hsl(178, 100%, 50%);
   display: inline;
+  font-weight: 600;
 }
 .icon {
   vertical-align: text-top;
