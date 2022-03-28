@@ -112,6 +112,9 @@ p {
   display: inline;
   font-weight: 600;
 }
+.icon {
+  margin-right: 0.41rem;
+}
 .ethereum {
   align-items: center;
   display: flex;
