@@ -38,6 +38,10 @@ footer,
 .author {
   font-size: 0.94rem;
 }
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 /* card heading */
 #title {
@@ -108,11 +112,13 @@ footer,
   display: inline;
   font-weight: 600;
 }
-.icon {
-  vertical-align: text-top;
+.ethereum {
+  align-items: center;
+  display: flex;
 }
-.days-left p {
-  display: inline;
+.days-left {
+  align-items: center;
+  display: flex;
 }
 
 /* author's info*/
@@ -128,8 +134,6 @@ footer,
 }
 .author p {
   margin-left: 1rem;
-  margin-top: 0;
-  margin-bottom: 0;
   display: inline;
 }
 #name {
