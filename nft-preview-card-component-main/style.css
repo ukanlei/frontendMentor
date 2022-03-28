@@ -123,6 +123,9 @@ p {
   align-items: center;
   display: flex;
 }
+.days-left p {
+  font-weight: 400;
+}
 
 /* author's info*/
 .author {
@@ -138,6 +141,7 @@ p {
 .author p {
   margin-left: 1rem;
   display: inline;
+  font-weight: 400;
 }
 #name {
   color: hsl(0, 0%, 100%);
