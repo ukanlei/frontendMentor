@@ -1,0 +1,9 @@
+/* default values set as CSS global variables */
+:root {
+  --cyan: rgb(102, 226, 220);
+  --orange: rgb(250, 116, 83);
+  --orange-lite: rgb(255, 185, 100);
+  --off-white: rgb(252, 250, 249);
+  --black: rgb(25, 24, 38);
+  --font-family: "IBM Plex Sans";
+}
