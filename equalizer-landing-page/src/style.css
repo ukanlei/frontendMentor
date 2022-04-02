@@ -10,7 +10,6 @@
 
 /* Typography: local variables */
 p {
-  --main-font-size: 1.25rem: 
   --font-size-1: 1rem;
   --font-size-2: 1.13rem;
   --line-height-1: 1.63rem;
@@ -27,16 +26,35 @@ h2 {
 }
 
 /* for small device (tablet etc) */
-@media screen and (min-width: 30rem) {
-    p {
+@media screen and (min-width: 30rem) and (max-width: 63.9rem) {
+  p {
     --font-size-1: 1.13rem;
     --line-height-1: 1.75rem;
-    }
-    h1 {
+  }
+  h1 {
     --font-size: 4rem;
     --line-height: 4rem;
     --spacing: -0.05rem;
-    }
+  }
+}
+
+/* for laptop like etc */
+@media screen and (min-width: 64rem) {
+  p {
+    --font-size: 1.25rem: 
+    --line-height: 2.13rem;
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+  }
+  h1 {
+    --font-size: 5.5rem;
+    --line-height: 5.5rem;
+    --spacing: -0.06rem;
+  }
+  h2 {
+  --font-size: 2.5rem;
+  --line-height: 3.25rem;
+  }
 }
 
 /* Page structure */
@@ -48,7 +66,7 @@ body {
 h1 {
   font-size: var(--font-size);
   line-height: var(--line-height);
-  letter-spacing: var(--spacing); 
+  letter-spacing: var(--spacing);
 }
 h2 {
   font-size: var(--font-size);
@@ -56,7 +74,7 @@ h2 {
 }
 footer {
   font-size: 1rem;
-  line-height: 1.64rem;
+  line-height: 1.63rem;
 }
 button {
   font-size: 1.13rem;
@@ -69,14 +87,14 @@ button {
   font-size: var(--font-size-2);
   line-height: var(--line-height-2);
 }
-#price p{
-    font-size: var(--main-font-size);
-    letter-spacing: -0.01rem;
+#price p {
+  font-size: var(--main-font-size);
+  letter-spacing: -0.01rem;
 }
-#price span{
-    font-size: 4.03rem;
-    line-height: 3.25rem;
+#price span {
+  font-size: 4.03rem;
+  line-height: 3.25rem;
 }
-.bold{
-    font-weight: 700;
+.bold {
+  font-weight: 700;
 }
