@@ -6,7 +6,6 @@
   --off-white: rgb(252, 250, 249);
   --black: rgb(25, 24, 38);
   --font-family: "IBM Plex Sans";
-  --font-size-footer: 1rem;
 }
 
 /* Page structure */
@@ -14,25 +13,57 @@ body {
   font-family: var(--font-family);
 }
 
-/* Typography */
-/* local variables */
+/* Typography: local variables */
 p {
+  --main-font-size: 1.25rem: 
   --font-size-1: 1rem;
   --font-size-2: 1.13rem;
+  --line-height-1: 1.63rem;
+  --line-height-2: 1.75rem;
 }
 h1 {
   --font-size: 2.5rem;
+  --line-height: 3rem;
+  --spacing: -0.03rem;
 }
 h2 {
   --font-size: 2rem;
+  --line-height: 2.5rem;
 }
 
+/* Typography */
 h1 {
   font-size: var(--font-size);
+  line-height: var(--line-height);
+  letter-spacing: var(--spacing); 
 }
 h2 {
   font-size: var(--font-size);
+  line-height: var(--line-height);
 }
 footer {
-  font-size: var(--font-size-footer);
+  font-size: 1rem;
+  line-height: 1.64rem;
+}
+button {
+  font-size: 1.13rem;
+}
+#section1 p {
+  font-size: var(--font-size-1);
+  line-height: var(--line-height-1);
+}
+#section2 p {
+  font-size: var(--font-size-2);
+  line-height: var(--line-height-2);
+}
+#price p{
+    font-size: var(--main-font-size);
+    letter-spacing: -0.01rem;
+}
+#price span{
+    font-size: 4.03rem;
+    line-height: 3.25rem;
+}
+.bold{
+    font-weight: 700;
 }
