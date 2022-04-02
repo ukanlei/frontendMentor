@@ -8,11 +8,6 @@
   --font-family: "IBM Plex Sans";
 }
 
-/* Page structure */
-body {
-  font-family: var(--font-family);
-}
-
 /* Typography: local variables */
 p {
   --main-font-size: 1.25rem: 
@@ -29,6 +24,24 @@ h1 {
 h2 {
   --font-size: 2rem;
   --line-height: 2.5rem;
+}
+
+/* for small device (tablet etc) */
+@media screen and (min-width: 30rem) {
+    p {
+    --font-size-1: 1.13rem;
+    --line-height-1: 1.75rem;
+    }
+    h1 {
+    --font-size: 4rem;
+    --line-height: 4rem;
+    --spacing: -0.05rem;
+    }
+}
+
+/* Page structure */
+body {
+  font-family: var(--font-family);
 }
 
 /* Typography */
