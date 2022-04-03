@@ -10,10 +10,8 @@
 
 /* Typography: local variables */
 p {
-  --font-size-1: 1rem;
-  --font-size-2: 1.13rem;
-  --line-height-1: 1.63rem;
-  --line-height-2: 1.75rem;
+  --main-font-size: 1.25rem;
+  --line-height: 2.13rem;
 }
 h1 {
   --font-size: 2.5rem;
@@ -24,37 +22,13 @@ h2 {
   --font-size: 2rem;
   --line-height: 2.5rem;
 }
-
-/* for small device (tablet etc) */
-@media screen and (min-width: 30rem) and (max-width: 63.9rem) {
-  p {
-    --font-size-1: 1.13rem;
-    --line-height-1: 1.75rem;
-  }
-  h1 {
-    --font-size: 4rem;
-    --line-height: 4rem;
-    --spacing: -0.05rem;
-  }
+#section1 {
+  --font-size-1: 1rem;
+  --line-height-1: 1.63rem;
 }
-
-/* for laptop like etc */
-@media screen and (min-width: 64rem) {
-  p {
-    --font-size: 1.25rem: 
-    --line-height: 2.13rem;
-    font-size: var(--font-size);
-    line-height: var(--line-height);
-  }
-  h1 {
-    --font-size: 5.5rem;
-    --line-height: 5.5rem;
-    --spacing: -0.06rem;
-  }
-  h2 {
-  --font-size: 2.5rem;
-  --line-height: 3.25rem;
-  }
+#section3 {
+  --font-size-2: 1.13rem;
+  --line-height-2: 1.75rem;
 }
 
 /* Page structure */
@@ -79,11 +53,11 @@ footer {
 button {
   font-size: 1.13rem;
 }
-#section1 p {
+#section1 {
   font-size: var(--font-size-1);
   line-height: var(--line-height-1);
 }
-#section3 p {
+#section3 {
   font-size: var(--font-size-2);
   line-height: var(--line-height-2);
 }
@@ -102,4 +76,35 @@ button {
 /* svg */
 #logo{
     max-width: 9.13rem;
+}
+
+/* for small device (tablet etc) */
+@media screen and (min-width: 30rem) and (max-width: 63.9rem) {
+  #section1{
+    --font-size-1: 1.13rem;
+    --line-height-1: 1.75rem;
+  }
+  h1 {
+    --font-size: 4rem;
+    --line-height: 4rem;
+    --spacing: -0.05rem;
+  }
+}
+
+/* for laptop like etc */
+@media screen and (min-width: 64rem) {
+  p {
+    font-size: var(--main-font-size);
+    line-height: var(--line-height);
+  }
+  h1 {
+    --font-size: 5.5rem;
+    --line-height: 5.5rem;
+    --spacing: -0.06rem;
+  }
+
+  h2 {
+    --font-size: 2.5rem;
+    --line-height: 3.25rem;
+  }
 }
