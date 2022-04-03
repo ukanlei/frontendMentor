@@ -55,6 +55,19 @@ button {
 body {
   font-family: var(--font-family);
   margin-top: 2.499rem;
+  overflow: none;
+}
+header {
+  margin-left: 1.509rem;
+  margin-bottom: 4.001rem;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  margin-top: 4.001rem;
+  margin-bottom: 5rem;
 }
 
 /* svg */
