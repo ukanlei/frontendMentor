@@ -19,6 +19,8 @@ h1 {
   font-size: 2.5rem;
   line-height: 3rem;
   letter-spacing: -0.03rem;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
 }
 h2 {
   font-size: 2rem;;
@@ -54,20 +56,15 @@ button {
 /* Page structure */
 body {
   font-family: var(--font-family);
-  margin-top: 2.499rem;
-  overflow: none;
+  margin: 2.499rem 1.5rem 5rem;
+  display: inline-block;
+  overflow: hidden;
 }
 header {
-  margin-left: 1.509rem;
   margin-bottom: 4.001rem;
-}
-main{
-  display: flex;
-  flex-direction: column;
 }
 footer{
   margin-top: 4.001rem;
-  margin-bottom: 5rem;
 }
 
 /* svg */
