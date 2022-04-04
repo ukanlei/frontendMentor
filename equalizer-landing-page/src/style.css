@@ -57,8 +57,7 @@ button {
 body {
   font-family: var(--font-family);
   margin: 2.499rem 1.5rem 5rem;
-  display: inline-block;
-  overflow: hidden;
+  display: inline-block; 
 }
 header {
   margin-bottom: 4.001rem;
