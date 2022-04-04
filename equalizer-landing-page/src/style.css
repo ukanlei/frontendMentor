@@ -25,6 +25,7 @@ h1 {
 h2 {
   font-size: 2rem;;
   line-height: 2.5rem;
+  margin: 3rem 0 0.75rem;
 }
 footer {
   font-size: 1rem;
@@ -32,18 +33,36 @@ footer {
 }
 button {
   font-size: 1.13rem;
+  display: block;
 }
+.btns-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #section1 {
   font-size: 1rem;
   line-height: 1.63rem;
 }
 #section3 {
+  color: var(--off-white);
   font-size: 1.13rem;
   line-height: 1.75rem;
+  display: inline-block;
+  margin: 0 0.75rem;
+  padding-bottom: 3rem;
+}
+#section3 p{
+  margin-bottom: 2.25rem ;
+}
+#price {
+  margin-bottom: 2rem;
 }
 #price p {
   font-size: var(--main-font-size);
   letter-spacing: -0.01rem;
+  display: inline;
 }
 #price span {
   font-size: 4.03rem;
@@ -69,6 +88,31 @@ footer{
 /* svg */
 #logo{
     max-width: 9.13rem;
+}
+
+/* mobile */
+@media screen and (max-width: 29rem) {
+  .stretch{
+    position: relative;
+  }
+  .stretch:before{
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 200vw;
+    left: -100vw;
+
+  }
+  .orange:before{
+    background-color: var(--orange); 
+    z-index: -1;
+
+     
+  }
+  .black:before {
+    background-color: var(--black);
+    z-index: -2;
+  }
 }
 
 
