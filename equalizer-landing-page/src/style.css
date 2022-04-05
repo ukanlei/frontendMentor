@@ -40,18 +40,20 @@ button {
   flex-direction: column;
   justify-content: center;
 }
-
 #section1 {
   font-size: 1rem;
   line-height: 1.63rem;
+}
+#section2{
+  background-color: var(--black);
 }
 #section3 {
   color: var(--off-white);
   font-size: 1.13rem;
   line-height: 1.75rem;
   display: inline-block;
-  margin: 0 0.75rem;
   padding-bottom: 3rem;
+  background-color: var(--orange);
 }
 #section3 p{
   margin-bottom: 2.25rem ;
@@ -75,7 +77,7 @@ button {
 /* Page structure */
 body {
   font-family: var(--font-family);
-  margin: 2.499rem 1.5rem 5rem;
+  margin: 2.499rem 0 5rem;
   display: inline-block; 
 }
 header {
@@ -83,6 +85,10 @@ header {
 }
 footer{
   margin-top: 4.001rem;
+}
+.container{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem
 }
 
 /* svg */
@@ -92,27 +98,6 @@ footer{
 
 /* mobile */
 @media screen and (max-width: 29rem) {
-  .stretch{
-    position: relative;
-  }
-  .stretch:before{
-    content:"";
-    position: absolute;
-    height: 100%;
-    width: 200vw;
-    left: -100vw;
-
-  }
-  .orange:before{
-    background-color: var(--orange); 
-    z-index: -1;
-
-     
-  }
-  .black:before {
-    background-color: var(--black);
-    z-index: -2;
-  }
 }
 
 
