@@ -44,10 +44,19 @@ button {
   flex-direction: column;
   justify-content: center;
 }
+.btns img{
+  margin-right: 0.5rem;
+}
 #btn-1{
   background-color: var(--black);
   color: var(--off-white);
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#btn-2{
+  display: flex;
+  justify-content: center;
 }
 #section1 {
   font-size: 1rem;
