@@ -52,7 +52,7 @@ button {
   font-size: 1.13rem;
   line-height: 1.75rem;
   display: inline-block;
-  padding-bottom: 3rem;
+  padding: 0 2.25rem 3rem;
   background-color: var(--orange);
 }
 #section3 p{
