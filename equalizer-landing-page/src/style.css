@@ -34,11 +34,19 @@ footer {
 button {
   font-size: 1.13rem;
   display: block;
+  border: none;
+  padding: 1.31rem 4.81rem;
+  border-radius: 0.75rem;
 }
-.btns-1{
+.btns{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+#btn-1{
+  background-color: var(--black);
+  color: var(--off-white);
+  margin-bottom: 1rem;
 }
 #section1 {
   font-size: 1rem;
