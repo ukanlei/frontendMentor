@@ -6,6 +6,7 @@
   --off-white: rgb(252, 250, 249);
   --black: rgb(25, 24, 38);
   --font-family: "IBM Plex Sans";
+
 }
 
 /* Typography: local variables */
@@ -35,7 +36,7 @@ button {
   font-size: 1.13rem;
   display: block;
   border: none;
-  padding: 1.31rem 4.81rem;
+  padding: 1.25rem 0;
   border-radius: 0.75rem;
 }
 .btns{
