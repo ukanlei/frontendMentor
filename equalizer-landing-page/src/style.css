@@ -64,17 +64,34 @@ button {
   line-height: 1.63rem;
 }
 #section2{
+  margin-top: 4.25rem;
+}
+#phone > img{
+  max-width: 13.06rem;
+}
+#card-1{
+    position: relative;
+    top: 3rem;
+}
+#card-1 > div{
   background-color: var(--black);
 }
-#section3 {
+#card-1 > div > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 17.5rem;
+}
+#card-2 {
   color: var(--off-white);
   font-size: 1.13rem;
   line-height: 1.75rem;
   display: inline-block;
   padding: 0 2.25rem 3rem;
   background-color: var(--orange);
+  position: relative;
 }
-#section3 p{
+#card-2 p{
   margin-bottom: 2.25rem ;
 }
 #price {
@@ -114,11 +131,6 @@ footer{
 #logo{
     max-width: 9.13rem;
 }
-
-/* mobile */
-@media screen and (max-width: 29rem) {
-}
-
 
 /* for small device (tablet etc) */
 @media screen and (min-width: 30rem) and (max-width: 63.9rem) {
