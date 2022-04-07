@@ -63,11 +63,18 @@ button {
   font-size: 1rem;
   line-height: 1.63rem;
 }
+#section1 > p {
+  margin-bottom: 0;
+}
 #section2{
-  margin-top: 4.25rem;
+  padding-top: 7.38rem;
 }
 #phone{
   max-width: 13.06rem;
+  position: absolute;
+  top: -6rem;
+  left: 50%;
+  transform: translate(-50%);
 }
 #card-1{
     position: relative;
