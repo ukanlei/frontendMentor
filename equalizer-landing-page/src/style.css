@@ -39,6 +39,10 @@ button {
   padding: 1.25rem 0;
   border-radius: var(--round-corners);
 }
+.hover-effect{
+  cursor: pointer;
+  transition: 0.2s;
+}
 
 .btns{
   display: flex;
