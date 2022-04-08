@@ -38,7 +38,7 @@ button {
   display: block;
   border: none;
   padding: 1.25rem 0;
-  border-radius: 0.75rem;
+  border-radius: var(--round-corners);
 }
 .btns{
   display: flex;
@@ -83,6 +83,7 @@ button {
 }
 #card-1 > div{
   background-color: var(--black);
+  border-radius: var(--round-corners);
 }
 #card-1 > div > img{
   display: block;
@@ -97,6 +98,7 @@ button {
   display: inline-block;
   padding: 0 2.25rem 3rem;
   background-color: var(--orange);
+  border-radius: var(--round-corners);
   position: relative;
 }
 #card-2 p{
@@ -116,9 +118,6 @@ button {
 }
 .bold {
   font-weight: 700;
-}
-.border {
-    border-radius: var(--round-corners);
 }
 
 /* Page structure */
