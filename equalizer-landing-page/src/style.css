@@ -122,6 +122,9 @@ button {
 .bold {
   font-weight: 700;
 }
+.sub-info{
+  margin-left: 0.38rem;
+}
 
 /* Page structure */
 body {
