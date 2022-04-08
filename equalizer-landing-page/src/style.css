@@ -7,7 +7,6 @@
   --black: rgb(25, 24, 38);
   --font-family: "IBM Plex Sans";
   --round-corners: 0.75rem;
-
 }
 
 /* Typography: local variables */
@@ -40,6 +39,7 @@ button {
   padding: 1.25rem 0;
   border-radius: var(--round-corners);
 }
+
 .btns{
   display: flex;
   flex-direction: column;
@@ -106,15 +106,18 @@ button {
 }
 #price {
   margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
 }
 #price p {
   font-size: var(--main-font-size);
   letter-spacing: -0.01rem;
-  display: inline;
+  margin: 0;
 }
 #price span {
   font-size: 4.03rem;
   line-height: 3.25rem;
+  margin-right: 1rem;
 }
 .bold {
   font-weight: 700;
