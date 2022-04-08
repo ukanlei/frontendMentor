@@ -60,6 +60,12 @@ button {
   justify-content: center;
   background-color: var(--off-white);
 }
+#btn-1:hover{
+ background-color: var(--cyan);
+}
+#btn-2:hover {
+  background-color: var(--orange-lite);
+}
 #section1 {
   font-size: 1rem;
   line-height: 1.63rem;
