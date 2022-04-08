@@ -6,6 +6,7 @@
   --off-white: rgb(252, 250, 249);
   --black: rgb(25, 24, 38);
   --font-family: "IBM Plex Sans";
+  --round-corners: 0.75rem;
 
 }
 
@@ -115,6 +116,9 @@ button {
 }
 .bold {
   font-weight: 700;
+}
+.border {
+    border-radius: var(--round-corners);
 }
 
 /* Page structure */
