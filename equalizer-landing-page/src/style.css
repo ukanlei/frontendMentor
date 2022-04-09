@@ -19,6 +19,9 @@ p {
 a{
   text-decoration: none;
 }
+p{
+  margin: 0;
+}
 
 h1 {
   font-size: 2.5rem;
@@ -42,6 +45,9 @@ button {
   border: none;
   padding: 1.25rem 0;
   border-radius: var(--round-corners);
+}
+footer #logo{
+  margin-bottom: 2rem;
 }
 .hover-effect{
   cursor: pointer;
@@ -141,6 +147,7 @@ button {
 #icons {
   display: flex;
   gap: 1.25rem;
+  margin-top: 4rem;
 }
 #icons img:hover{
   filter: invert(79%) sepia(49%) saturate(6676%) hue-rotate(327deg) brightness(103%) contrast(96%);
