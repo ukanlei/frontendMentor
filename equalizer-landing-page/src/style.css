@@ -138,7 +138,11 @@ button {
 .sub-info{
   margin-left: 0.38rem;
 }
-#sns img:hover{
+#icons {
+  display: flex;
+  gap: 1.25rem;
+}
+#icons img:hover{
   filter: invert(79%) sepia(49%) saturate(6676%) hue-rotate(327deg) brightness(103%) contrast(96%);
 }
 
