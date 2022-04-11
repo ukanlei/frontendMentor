@@ -100,11 +100,11 @@ footer #logo{
     position: relative;
     top: 3rem;
 }
-#card-1 > div{
+#card-1 .background{
   background-color: var(--black);
   border-radius: var(--round-corners);
 }
-#card-1 > div > img{
+#card-1 .background > img{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -160,7 +160,7 @@ body {
   display: inline-block; 
 }
 header {
-  margin-bottom: 4.001rem;
+  margin: 0 1.51rem 4.001rem;
 }
 footer{
   margin-top: 4.001rem;
@@ -175,7 +175,7 @@ footer{
     max-width: 9.13rem;
 }
 
-/* for small device (tablet etc) */
+/* tablet */
 @media screen and (min-width: 30rem) and (max-width: 63.9rem) {
   #section1{
     font-size: 1.13rem;
@@ -186,6 +186,32 @@ footer{
     line-height: 4rem;
     letter-spacing: -0.05rem;
   }
+  footer {
+    margin-top: 5.44rem;
+    margin-bottom: 5.31rem;
+  }
+}
+@media screen and (min-width: 33rem) and (max-width: 63.9rem){
+  header{
+    margin-left: 2.45rem;
+    margin-right: 2.45rem;
+  }
+  #section2{
+    margin: 0 2.25rem;
+  }
+  #phone {
+    max-width: 16.88rem;
+    left: 12.5rem;
+
+  }
+  #card-2{
+    position:;
+  }
+  .container{
+    margin-left: 2.38rem;
+    margin-right: 2.38rem
+  }
+
 }
 
 /* for laptop like etc */
