@@ -88,6 +88,7 @@ footer #logo{
 }
 #section2{
   padding-top: 7.38rem;
+  position: relative;
 }
 #phone{
   max-width: 13.06rem;
@@ -201,18 +202,25 @@ footer{
   }
   #section2{
     margin: 0 2.25rem;
+    
   }
   #phone {
     left: 12.5rem;
   }
   #card-2{
     max-width: 20.44rem;
-
+    position: absolute;
+    right: 3.63rem;
+    top: 22rem
+  }
+  .background{
+    height: 37.5rem;
   }
   .container{
     margin-left: 2.38rem;
     margin-right: 2.38rem
   }
+
 
 }
 
