@@ -1,12 +1,15 @@
 @use "../abstracts/color";
+@use "../abstracts/font";
 
-html {
+body {
     background-color: color.$pale-blue;
+    font-family: font.$main-font;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+
     a {
         color: hsl(228, 45%, 44%);
     }
