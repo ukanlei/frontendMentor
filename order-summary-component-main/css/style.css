@@ -6,11 +6,11 @@ body {
   font-family: "Red Hat Display";
 }
 
-.attribution {
+footer {
   font-size: 11px;
   text-align: center;
 }
-.attribution a {
+footer a {
   color: hsl(228deg, 45%, 44%);
 }
 
