@@ -1,18 +1,21 @@
 @use "../abstracts/color";
 @use "../abstracts/font";
+@use "../abstracts/mixins";
+
+html, body{
+    margin: 0;
+}
 
 body {
     background-color: color.$pale-blue;
     font-family: font.$main-font;
+    min-height: 100vh; //need to know the height for justify-content to work.
+    @include mixins.center-flex;
 }
 
-footer {
-    font-size: 11px;
-    text-align: center;
-
-    a {
-        color: hsl(228, 45%, 44%);
-    }
+main{
+    background-color: color.$pale-blue-lite;
+    max-width: 20.44rem;
+    height: 35.44rem;
 }
-
 
