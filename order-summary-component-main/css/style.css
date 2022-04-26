@@ -14,4 +14,12 @@ footer a {
   color: hsl(228deg, 45%, 44%);
 }
 
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228deg, 45%, 44%);
+}
+
 /*# sourceMappingURL=style.css.map */
