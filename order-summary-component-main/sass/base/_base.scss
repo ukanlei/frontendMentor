@@ -13,9 +13,3 @@ body {
     @include mixins.center-flex;
 }
 
-main{
-    background-color: color.$pale-blue-lite;
-    max-width: 20.44rem;
-    height: 35.44rem;
-}
-
