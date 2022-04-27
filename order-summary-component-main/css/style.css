@@ -21,10 +21,10 @@ main {
   height: 35.44rem;
   border-radius: 1.25rem;
   text-align: center;
-  display: flex;
-  flex-direction: column;
 }
 main img {
+  width: 100%;
+  object-fit: contain;
   border-radius: 1.25rem 1.25rem 0 0;
 }
 
