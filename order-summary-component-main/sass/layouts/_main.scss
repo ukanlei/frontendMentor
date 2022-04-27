@@ -1,8 +1,11 @@
 @use "../abstracts/color";
+@use "../abstracts/mixins";
 
 main{
     background-color: color.$pale-blue-lite;
     max-width: 20.44rem;
     height: 35.44rem;
     border-radius: 1.25rem;
+    text-align: center;
+    @include mixins.flex-column;
 }
