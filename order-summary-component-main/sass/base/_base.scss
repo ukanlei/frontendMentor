@@ -1,16 +1,16 @@
-@use "../abstracts/color";
-@use "../abstracts/font";
-@use "../abstracts/mixins";
+@use "../abstracts";
 
-html, body{
+/* reset */
+html,
+body {
     margin: 0;
 }
-
+    
 body {
-    background-color: color.$pale-blue;
-    font-family: font.$main-font;
+    background-color: abstracts.$pale-blue;
+    font-family: abstracts.$main-font;
     min-height: 100vh; //need to know the height for justify-content to work.
-    @include mixins.flex-column;
-    @include mixins.flex-center;
+    @include abstracts.flex-column;
+    @include abstracts.flex-center;
 }
 

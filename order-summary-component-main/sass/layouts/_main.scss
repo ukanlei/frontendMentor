@@ -1,8 +1,7 @@
-@use "../abstracts/color";
-@use "../abstracts/mixins";
+@use "../abstracts";
 
 main{
-    background-color: color.$pale-blue-lite;
+    background-color: abstracts.$pale-blue-lite;
     max-width: 20.44rem;
     height: 35.44rem;
     border-radius: 1.25rem;

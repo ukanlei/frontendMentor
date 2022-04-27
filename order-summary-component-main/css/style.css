@@ -1,7 +1,9 @@
 /* Primary */
 /* Neutral */
 /* font weight */
-html, body {
+/* reset */
+html,
+body {
   margin: 0;
 }
 
