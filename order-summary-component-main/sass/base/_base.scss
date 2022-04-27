@@ -10,6 +10,7 @@ body {
     background-color: color.$pale-blue;
     font-family: font.$main-font;
     min-height: 100vh; //need to know the height for justify-content to work.
-    @include mixins.center-flex;
+    @include mixins.flex-column;
+    @include mixins.flex-center;
 }
 

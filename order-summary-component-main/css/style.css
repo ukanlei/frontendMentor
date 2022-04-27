@@ -20,6 +20,9 @@ main {
   max-width: 20.44rem;
   height: 35.44rem;
   border-radius: 1.25rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
