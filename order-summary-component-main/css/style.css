@@ -35,4 +35,12 @@ footer a {
   color: hsl(228deg, 45%, 44%);
 }
 
+button {
+  max-width: 17.44rem;
+  height: 3.13rem;
+  background-color: hsl(245deg, 75%, 52%);
+  border-radius: 0.69rem;
+  border-style: none;
+}
+
 /*# sourceMappingURL=style.css.map */
