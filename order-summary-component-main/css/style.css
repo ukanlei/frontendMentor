@@ -24,6 +24,9 @@ main {
   display: flex;
   flex-direction: column;
 }
+main img {
+  border-radius: 1.25rem 1.25rem 0 0;
+}
 
 footer {
   font-size: 11px;

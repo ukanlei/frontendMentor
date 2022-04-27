@@ -8,4 +8,9 @@ main{
     border-radius: 1.25rem;
     text-align: center;
     @include mixins.flex-column;
+
+    img{
+        border-radius: 1.25rem 1.25rem 0 0;
+    }
+
 }
