@@ -19,6 +19,7 @@ main {
   background-color: hsl(225deg, 100%, 98%);
   max-width: 20.44rem;
   height: 35.44rem;
+  border-radius: 1.25rem;
 }
 
 footer {
