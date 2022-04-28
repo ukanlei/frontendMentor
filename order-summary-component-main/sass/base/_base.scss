@@ -8,7 +8,6 @@ body {
     
 body {
     background-color: abstracts.$pale-blue;
-    font-family: abstracts.$main-font;
     min-height: 100vh; //need to know the height for justify-content to work.
     @include abstracts.flex-column;
     @include abstracts.flex-center;

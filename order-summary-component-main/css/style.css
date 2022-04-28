@@ -9,12 +9,33 @@ body {
 
 body {
   background-color: hsl(225deg, 100%, 94%);
-  font-family: "Red Hat Display";
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+body {
+  font-family: "Red Hat Display";
+}
+
+h1 {
+  font-size: 1.38rem;
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 900;
+}
+
+p {
+  font-size: 0.94rem;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 500;
+}
+
+button {
+  font-size: 0.94rem;
+  color: white;
+  font-weight: 900;
 }
 
 main {

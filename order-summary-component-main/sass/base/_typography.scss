@@ -1,0 +1,17 @@
+@use "../abstracts";
+
+body{
+    font-family: abstracts.$main-font;
+}
+
+h1{
+    @include abstracts.typography(1.38rem, 900, abstracts.$dark-blue);
+}
+
+p{
+    @include abstracts.typography(0.94rem, 500, abstracts.$desaturated-blue);
+}
+
+button{
+    @include abstracts.typography(0.94rem, 900, white);
+}

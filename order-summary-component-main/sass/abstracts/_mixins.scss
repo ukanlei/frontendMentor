@@ -7,3 +7,10 @@
     align-items: center;
     justify-content: center;
 }
+
+@mixin typography ($size, $weight, $color ){
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+}
+
