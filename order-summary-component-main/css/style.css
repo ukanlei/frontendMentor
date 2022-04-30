@@ -51,6 +51,14 @@ main img {
   border-radius: 1.25rem 1.25rem 0 0;
 }
 
+.section1 {
+  margin: 1.88rem 2rem 0;
+}
+
+.section2 {
+  margin: 1.5rem 1.5rem 2rem;
+}
+
 footer {
   font-size: 11px;
 }
