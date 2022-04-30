@@ -1,0 +1,6 @@
+@use "../abstracts";
+
+.section2-item{
+    display: flex;
+    @include abstracts.flex-center;
+}

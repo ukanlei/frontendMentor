@@ -74,4 +74,10 @@ button {
   border-style: none;
 }
 
+.section2-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
