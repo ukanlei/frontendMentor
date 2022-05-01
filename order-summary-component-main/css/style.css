@@ -88,6 +88,7 @@ button {
   justify-content: center;
   background-color: hsl(225deg, 100%, 98%);
   border-radius: 0.69rem;
+  padding: 1rem;
 }
 
 .icon-music {
