@@ -1,4 +1,4 @@
-@use "../abstracts";
+@use "../abstracts" as *;
 
 /* reset */
 html,
@@ -8,9 +8,9 @@ p {
 }
     
 body {
-    background-color: abstracts.$pale-blue;
+    background-color: $pale-blue;
     min-height: 100vh; //need to know the height for justify-content to work.
-    @include abstracts.flex-column;
-    @include abstracts.flex-center;
+    @include flex-column;
+    @include flex-center;
 }
 

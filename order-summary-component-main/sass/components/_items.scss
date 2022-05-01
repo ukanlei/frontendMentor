@@ -1,8 +1,8 @@
-@use "../abstracts";
+@use "../abstracts" as *;
 
 .section2-item{
     display: flex;
-    @include abstracts.flex-center;
-    background-color: abstracts.$pale-blue-lite;
-    border-radius: abstracts.$component-radius;
+    @include flex-center;
+    background-color: $pale-blue-lite;
+    border-radius: $component-radius;
 }
