@@ -12,16 +12,21 @@ main{
         border-radius: 1.25rem 1.25rem 0 0;
     }
 
-    p{
-        line-height: 1.56rem;
-    }
-
 }
 
 .section1{
     margin: 1.88rem 2rem 0;
+
+    p {
+        line-height: 1.56rem;
+         margin-top: 1rem;
+    }
 }
 
 .section2{
     margin: 1.5rem 1.5rem 2rem;
+
+    button {
+        margin: 1.5rem;
+    }
 }
