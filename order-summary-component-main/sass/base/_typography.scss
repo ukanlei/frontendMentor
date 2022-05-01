@@ -25,9 +25,17 @@ button{
     @include typography(0.81rem, $medium, $bright-blue);
 }
 
+.item-link-change:hover{
+    text-decoration: none;
+    color: $bright-blue-hover;
+}
+
 .item-link-cancel{
     @include typography(0.94rem, $bold, $desaturated-blue);
     text-decoration: none;
+}
+.item-link-cancel:hover {
+    color: $dark-blue;
 }
 
 .section2-item{

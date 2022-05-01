@@ -52,11 +52,20 @@ button {
   font-weight: 700;
 }
 
+.item-link-change:hover {
+  text-decoration: none;
+  color: hsl(245deg, 83%, 68%);
+}
+
 .item-link-cancel {
   font-size: 0.94rem;
   color: hsl(224deg, 23%, 55%);
   font-weight: 900;
   text-decoration: none;
+}
+
+.item-link-cancel:hover {
+  color: hsl(223deg, 47%, 23%);
 }
 
 .section2-item div p {
