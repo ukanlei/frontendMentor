@@ -90,6 +90,10 @@ button {
   border-radius: 0.69rem;
   padding: 1rem;
 }
+.section2-item div {
+  margin-left: 1.25rem;
+  margin-right: 3.13rem;
+}
 
 .icon-music {
   max-width: 3rem;
