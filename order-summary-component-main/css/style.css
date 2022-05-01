@@ -40,6 +40,10 @@ button {
   font-weight: 900;
 }
 
+.heading {
+  font-weight: 900;
+}
+
 .item-link-change {
   font-size: 0.81rem;
   color: hsl(245deg, 75%, 52%);

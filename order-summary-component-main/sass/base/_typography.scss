@@ -5,22 +5,27 @@ body{
 }
 
 h1{
-    @include typography(1.38rem, 900, $dark-blue);
+    @include typography(1.38rem, $bold, $dark-blue);
 }
 
 p{
-    @include typography(0.94rem, 500, $desaturated-blue);
+    @include typography(0.94rem, $norm, $desaturated-blue);
 }
 
 button{
-    @include typography(0.94rem, 900, white);
+    @include typography(0.94rem, $bold, white);
+}
+
+.heading{
+
+    font-weight: $bold;
 }
 
 .item-link-change{
-    @include typography(0.81rem, 700, $bright-blue);
+    @include typography(0.81rem, $medium, $bright-blue);
 }
 
 .item-link-cancel{
-    @include typography(0.94rem, 900, $desaturated-blue);
+    @include typography(0.94rem, $bold, $desaturated-blue);
     text-decoration: none;
 }
