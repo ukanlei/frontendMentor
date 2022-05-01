@@ -4,7 +4,7 @@ button{
     max-width: 17.44rem;
     height: 3.13rem;
     background-color: abstracts.$bright-blue;
-    border-radius: 0.69rem;
+    border-radius: abstracts.$component-radius;
     border-style: none;
     padding: 0.94rem 4.06rem;
 }

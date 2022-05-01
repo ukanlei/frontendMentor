@@ -3,4 +3,6 @@
 .section2-item{
     display: flex;
     @include abstracts.flex-center;
+    background-color: abstracts.$pale-blue-lite;
+    border-radius: abstracts.$component-radius;
 }
