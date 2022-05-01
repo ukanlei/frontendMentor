@@ -10,3 +10,8 @@ button{
     margin: 1.5rem 0;
     box-shadow: 0 1.25rem 1.25rem $bright-blue-link;
 }
+
+button:hover{
+    background-color: $bright-blue-hover;
+    cursor: pointer;
+}

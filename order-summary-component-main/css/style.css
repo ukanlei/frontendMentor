@@ -1,6 +1,7 @@
 /* Primary */
 /* Neutral */
 /* link */
+/* hover */
 /* font weight */
 /* reset */
 html,
@@ -104,6 +105,11 @@ button {
   padding: 0.94rem 4.06rem;
   margin: 1.5rem 0;
   box-shadow: 0 1.25rem 1.25rem hsla(245deg, 75%, 52%, 0.1903);
+}
+
+button:hover {
+  background-color: hsl(245deg, 83%, 68%);
+  cursor: pointer;
 }
 
 .section2-item {
