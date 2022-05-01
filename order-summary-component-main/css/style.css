@@ -41,6 +41,7 @@ button {
 }
 
 .heading {
+  color: hsl(223deg, 47%, 23%);
   font-weight: 900;
 }
 
