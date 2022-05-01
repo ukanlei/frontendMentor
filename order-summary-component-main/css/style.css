@@ -1,5 +1,6 @@
 /* Primary */
 /* Neutral */
+/* link */
 /* font weight */
 /* reset */
 html,
@@ -92,6 +93,7 @@ button {
   border-style: none;
   padding: 0.94rem 4.06rem;
   margin: 1.5rem 0;
+  box-shadow: 0 1.25rem 1.25rem hsla(245deg, 75%, 52%, 0.1903);
 }
 
 .section2-item {
