@@ -29,3 +29,11 @@ button{
     @include typography(0.94rem, $bold, $desaturated-blue);
     text-decoration: none;
 }
+
+.section2-item{
+    div {
+        p{
+            font-size: 0.88rem;
+        }
+    }
+}

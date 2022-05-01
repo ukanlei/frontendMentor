@@ -58,6 +58,10 @@ button {
   text-decoration: none;
 }
 
+.section2-item div p {
+  font-size: 0.88rem;
+}
+
 main {
   background-color: white;
   max-width: 20.44rem;
