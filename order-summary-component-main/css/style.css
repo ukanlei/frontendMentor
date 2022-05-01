@@ -63,7 +63,7 @@ main img {
   margin: 1.5rem 1.5rem 2rem;
 }
 .section2 button {
-  margin: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 footer {
@@ -79,6 +79,7 @@ button {
   background-color: hsl(245deg, 75%, 52%);
   border-radius: 0.69rem;
   border-style: none;
+  padding: 0.94rem 4.06rem;
 }
 
 .section2-item {
