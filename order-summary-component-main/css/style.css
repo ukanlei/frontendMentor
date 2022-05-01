@@ -39,6 +39,19 @@ button {
   font-weight: 900;
 }
 
+.item-link-change {
+  font-size: 0.81rem;
+  color: hsl(245deg, 75%, 52%);
+  font-weight: 700;
+}
+
+.item-link-cancel {
+  font-size: 0.94rem;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 900;
+  text-decoration: none;
+}
+
 main {
   background-color: white;
   max-width: 20.44rem;

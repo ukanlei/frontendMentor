@@ -15,3 +15,12 @@ p{
 button{
     @include typography(0.94rem, 900, white);
 }
+
+.item-link-change{
+    @include typography(0.81rem, 700, $bright-blue);
+}
+
+.item-link-cancel{
+    @include typography(0.94rem, 900, $desaturated-blue);
+    text-decoration: none;
+}
