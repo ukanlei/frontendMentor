@@ -49,7 +49,7 @@ button {
   font-weight: 900;
 }
 
-.section2-item div p {
+.sm {
   font-size: 0.88rem;
 }
 
@@ -77,6 +77,23 @@ button {
   color: hsl(223deg, 47%, 23%);
 }
 
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .sm {
+    font-size: 1rem;
+  }
+
+  .item-link-change {
+    font-size: 0.88rem;
+  }
+}
 main {
   background-color: white;
   max-width: 20.44rem;

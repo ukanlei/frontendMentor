@@ -19,12 +19,8 @@ button{
     color: $dark-blue;
     font-weight: $bold;
 }
-.section2-item{
-    div {
-        p{
-            font-size: 0.88rem;
-        }
-    }
+.sm{
+    font-size: 0.88rem;
 }
 
 /* links */ 
@@ -44,4 +40,19 @@ button{
 }
 .item-link-cancel:hover {
     color: $dark-blue;
+}
+
+@media screen and (min-width: $break1) {
+    h1{
+       font-size: 1.75rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .sm{
+        font-size: 1rem;
+    }
+    .item-link-change{
+        font-size: 0.88rem;
+    }
 }
