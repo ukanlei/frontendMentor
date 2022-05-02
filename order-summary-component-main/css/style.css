@@ -164,6 +164,7 @@ button:hover {
 @media screen and (min-width: 1000px) {
   button {
     padding: 0.94rem 6.38rem;
+    margin: 2rem 0;
   }
 }
 .section2-item {
