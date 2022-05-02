@@ -12,3 +12,13 @@
         margin-right: 3.13rem;
     }
 }
+
+@media screen and (min-width: $break1) {
+    .section2-item {
+        padding: 1.5rem;
+        div {
+            margin-right: 5.88rem;
+        }
+    }
+
+}
