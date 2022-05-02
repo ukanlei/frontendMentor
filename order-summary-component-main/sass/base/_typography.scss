@@ -1,47 +1,47 @@
 @use "../abstracts" as *;
 
+/* base */
 body{
     font-family: $main-font;
 }
-
 h1{
     @include typography(1.38rem, $bold, $dark-blue);
 }
-
 p{
     @include typography(0.94rem, $norm, $desaturated-blue);
 }
-
 button{
     @include typography(0.94rem, $bold, white);
 }
 
+/* layout and components */
 .heading{
     color: $dark-blue;
     font-weight: $bold;
 }
-
-.item-link-change{
-    @include typography(0.81rem, $medium, $bright-blue);
-}
-
-.item-link-change:hover{
-    text-decoration: none;
-    color: $bright-blue-hover;
-}
-
-.item-link-cancel{
-    @include typography(0.94rem, $bold, $desaturated-blue);
-    text-decoration: none;
-}
-.item-link-cancel:hover {
-    color: $dark-blue;
-}
-
 .section2-item{
     div {
         p{
             font-size: 0.88rem;
         }
     }
+}
+
+/* links */ 
+.item-link-change{
+    @include typography(0.81rem, $medium, $bright-blue);
+}
+
+.item-link-cancel{
+    @include typography(0.94rem, $bold, $desaturated-blue);
+    text-decoration: none;
+}
+
+/* when hover */
+.item-link-change:hover {
+    text-decoration: none;
+    color: $bright-blue-hover;
+}
+.item-link-cancel:hover {
+    color: $dark-blue;
 }

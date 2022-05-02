@@ -20,6 +20,7 @@ body {
   justify-content: center;
 }
 
+/* base */
 body {
   font-family: "Red Hat Display";
 }
@@ -42,20 +43,21 @@ button {
   font-weight: 900;
 }
 
+/* layout and components */
 .heading {
   color: hsl(223deg, 47%, 23%);
   font-weight: 900;
 }
 
+.section2-item div p {
+  font-size: 0.88rem;
+}
+
+/* links */
 .item-link-change {
   font-size: 0.81rem;
   color: hsl(245deg, 75%, 52%);
   font-weight: 700;
-}
-
-.item-link-change:hover {
-  text-decoration: none;
-  color: hsl(245deg, 83%, 68%);
 }
 
 .item-link-cancel {
@@ -65,12 +67,14 @@ button {
   text-decoration: none;
 }
 
-.item-link-cancel:hover {
-  color: hsl(223deg, 47%, 23%);
+/* when hover */
+.item-link-change:hover {
+  text-decoration: none;
+  color: hsl(245deg, 83%, 68%);
 }
 
-.section2-item div p {
-  font-size: 0.88rem;
+.item-link-cancel:hover {
+  color: hsl(223deg, 47%, 23%);
 }
 
 main {
