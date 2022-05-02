@@ -1,8 +1,6 @@
 @use "../abstracts" as *;
 
 button{
-    max-width: 17.44rem;
-    height: 3.13rem;
     background-color: $bright-blue;
     border-radius: $component-radius;
     border-style: none;
@@ -14,4 +12,10 @@ button{
 button:hover{
     background-color: $bright-blue-hover;
     cursor: pointer;
+}
+
+@media screen and (min-width: $break1) {
+    button{
+        padding: 0.94rem 6.38rem;
+    }
 }
