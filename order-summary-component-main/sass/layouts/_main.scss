@@ -28,3 +28,26 @@ main{
 .section2{
     margin: 1.5rem 1.5rem 2rem;
 }
+
+/* breakpoint */
+
+@media screen and (min-width: $break1) {
+    main{
+        max-width: 28.13rem;
+        height: 43.56rem;
+    }
+
+    .section1 {
+        margin: 2.81rem 3rem 0;
+    
+        p {
+            line-height: 1.63rem;
+            margin-top: 1.06rem;
+        }
+    }
+    
+    .section2 {
+        margin: 1.25rem 3rem 3rem;
+    }
+
+}
