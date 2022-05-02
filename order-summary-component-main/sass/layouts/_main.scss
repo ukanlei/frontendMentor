@@ -30,6 +30,11 @@ main{
 }
 
 /* breakpoint */
+@media screen and (max-width: $break-width), (max-height: $break-height){
+    main{
+        margin: 2rem;
+    }
+}
 
 @media screen and (min-width: $break1) {
     main{

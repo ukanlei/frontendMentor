@@ -124,6 +124,11 @@ main img {
 }
 
 /* breakpoint */
+@media screen and (max-width: 340px), (max-height: 750px) {
+  main {
+    margin: 2rem;
+  }
+}
 @media screen and (min-width: 1000px) {
   main {
     max-width: 28.13rem;
